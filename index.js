@@ -20,7 +20,7 @@
  const resetBtn = document.querySelector("#resetBtn");
  resetBtn.addEventListener("click",resetGame);
 
- //Handlers
+ //Handlers Functions
  function handleClick(userChoice)
  {
      console.log("You Chose ="+userChoice);
